@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+body{
+    background-image: linear-gradient(to top, black , rgb(32, 49, 100));
+    /* background-color: black; */
+    color: white;
+    font-family: monospace;
+}
+h2{
+    font-family: 'Merriweather', serif;
+}
+nav{
+    background-color: rgb(32, 49, 100);
+    width: 100%;
+    height: 50px;
+}
+ul{
+    margin-left: 40%;
+    padding: 10px 10px 12px 15px;
+    font-size: 20px;
+}
+.menu{
+    display: inline-block
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(21, 35, 77);
+    font-size: 20px;
+}
+#inf{
+    margin-left: 40%;
+}
+#logo{
+    margin-top: 0;
+    margin-left: 170px;
+}
+/* Index */
+
+.perfil{
+    display: flex;
+    justify-content: center;
+}
+.desc{
+    display: flex; 
+    flex-direction: row;
+    font-size: 20px;
+}
+/* Seccion Videos y fotos*/
+.contedorA{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#lago , #cerro{
+    width: 500px;
+    height: 500px;
+}
+.tituloBariloche{
+    font-size: 50px;
+    text-align: center;
+}
+.galaria{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 25px;
+}
+.contenedorG{
+    width: 90%;
+    height: auto;
+    background-color: #0a2a89;
+    display: grid;
+}
+.foto{
+    min-height: 200px;
+    min-width: 200px;
+    border: 1px solid grey;
+}
+.foto:hover{
+    transform: scale(1.2);
+    transition: 0.7s;
+}
+
+.foto1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-image: url(img/Cerro.jpeg);
+    background-size: cover;
+}
+.foto2{
+    background-image: url(img/cerroViejo.jpg);
+    background-size: cover;
+}
+.foto3{
+    grid-column: 2;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-image: url(img/playaDelToro.jpg);
+    background-size: cover;
+}
+.foto4{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-image: url(img/lagoOculto.jpg);
+    background-size: cover;
+}
+.foto5{
+    grid-column: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-image: url(img/puntoPanoramico.jpg);
+    background-size: cover;
+}
+.foto6{
+    grid-column: 4;
+    grid-row-start: 2;
+    grid-row-end: auto;
+    background-image: url(img/lago.jpeg);
+    background-size: cover;
+}
+.foto7{
+    background-image: url(img/tronador.jpeg);
+    background-size: cover;
+}
+
+/* Seccion Videos */
+
+/* Seccion Presets */
+.proximamente{
+    font-size: 50px;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 350px) {
+    footer{
+        width: 100%;
+        height: 100px;
+        background-color: rgb(32, 49, 100);
+        font-size: 15px;
+    }
+}
