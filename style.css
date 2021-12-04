@@ -18,22 +18,6 @@ h2 {
   font-family: 'Merriweather', serif;
 }
 
-nav {
-  background-color: #203164;
-  width: 100%;
-  height: 50px;
-}
-
-ul {
-  margin-left: 40%;
-  padding: 10px 10px 12px 15px;
-  font-size: 20px;
-}
-
-.menu {
-  display: inline-block;
-}
-
 footer {
   width: 100%;
   height: 120px;
