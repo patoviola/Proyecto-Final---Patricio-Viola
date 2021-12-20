@@ -95,11 +95,12 @@ footer {
 }
 
 .contenedorG {
-  width: 90%;
+  width: 100%;
   height: auto;
   background-color: #0a2a89;
   display: -ms-grid;
   display: grid;
+  overflow-x: scroll;
 }
 
 .foto {
