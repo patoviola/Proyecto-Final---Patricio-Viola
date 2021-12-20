@@ -119,10 +119,10 @@ footer {
 }
 
 .foto1 {
+  background-image: url(img/Cerro.jpeg);
   grid-row: 1;
   grid-row-start: 1;
   grid-row-end: 3;
-  background-image: url(img/Cerro.jpeg);
   background-size: cover;
 }
 
@@ -132,39 +132,39 @@ footer {
 }
 
 .foto3 {
+  background-image: url(img/playaDelToro.jpg);
   -ms-grid-column: 2;
   grid-column: 2;
   -ms-grid-column: 3;
   grid-column-start: 3;
   grid-column-end: 5;
-  background-image: url(img/playaDelToro.jpg);
   background-size: cover;
 }
 
 .foto4 {
+  background-image: url(img/lagoOculto.jpg);
   grid-row: 2;
   grid-row-start: 2;
   grid-row-end: 4;
-  background-image: url(img/lagoOculto.jpg);
   background-size: cover;
 }
 
 .foto5 {
+  background-image: url(img/puntoPanoramico.jpg);
   -ms-grid-column: 3;
   grid-column: 3;
   grid-row-start: 2;
   grid-row-end: 4;
-  background-image: url(img/puntoPanoramico.jpg);
   background-size: cover;
 }
 
 .foto6 {
+  background-image: url(img/lago.jpeg);
   -ms-grid-column: 4;
   grid-column: 4;
   grid-row: 2;
   grid-row-start: 2;
   grid-row-end: auto;
-  background-image: url(img/lago.jpeg);
   background-size: cover;
 }
 
